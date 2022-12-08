@@ -34,7 +34,7 @@
 
 .button {
   border-radius: 4px;
-  background-color: blue;
+  background-color: rgb(83, 48, 180);
   border: none;
   color: #ffffff;
   font-size: 15px;
@@ -42,7 +42,14 @@
   width: 200px;
   cursor: pointer;
   margin-bottom: 2%;
+  transition: all 0.3s ease-in-out;
 }
+
+.button:hover {
+  background-color: rgb(120, 84, 219);
+  transition: all 0.3s ease-in-out;
+}
+
 @media (max-width: 1000px) {
   .main {
     width: 100%;
